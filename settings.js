@@ -2,7 +2,7 @@ window.APP_CONFIG = {
   projectName: "Cebuano AI Speech-to-Text Demo",
   stableUrl: "https://kooldudegamedev.github.io/qr-display/",
   destinationUrl: "https://contests-sheffield-lobby-crown.trycloudflare.com",
-  autoRedirectSeconds: 10,
+  autoRedirectSeconds: 5,
   qrImagePath: "./assets/qr-code.svg",
   boothTitle: "Scan to Try the Demo",
   boothSubtitle: "Use your phone to open the Cebuano AI speech-to-text test page.",
