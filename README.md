@@ -186,3 +186,10 @@ Suggested phrases:
 - Kumusta ka?
 - Ganahan ko motry ani nga sistema.
 - Nindot unta kung makasabut ang AI sa Cebuano.
+
+
+
+
+git add settings.js
+git commit -m "Update destination URL"
+git push
