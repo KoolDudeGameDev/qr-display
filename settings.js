@@ -1,7 +1,7 @@
 window.APP_CONFIG = {
   projectName: "Cebuano AI Speech-to-Text Demo",
-  stableUrl: "https://YOUR_GITHUB_USERNAME.github.io/cebuano-demo-link/",
-  destinationUrl: "https://YOUR_CURRENT_BACKEND_URL_HERE/",
+  stableUrl: "https://kooldudegamedev.github.io/qr-display/",
+  destinationUrl: "https://contests-sheffield-lobby-crown.trycloudflare.com",
   autoRedirectSeconds: 1,
   qrImagePath: "./assets/qr-placeholder.svg",
   boothTitle: "Scan to Try the Demo",
