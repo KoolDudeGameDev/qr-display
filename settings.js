@@ -11,7 +11,7 @@ window.APP_CONFIG = {
     "Maayong buntag.",
     "Kumusta ka?",
     "Ganahan ko motry ani nga sistema.",
-    "Nindot unta kung makasabut ang AI sa Cebuano."
+    "Nindot unta kung makasabut ni sa Cebuano."
   ],
   footerNote: "",
   lastUpdated: "2026-03-10"
