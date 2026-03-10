@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cebuano Demo QR Screen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body class="display-body">
+  <main class="display-shell">
+    <section class="display-panel left-panel">
+      <span class="badge">Research Expo Demo</span>
+      <h1 id="boothTitle">Scan to Try the Demo</h1>
+      <p id="boothSubtitle" class="lead">Use your phone to open the Cebuano AI speech-to-text test page.</p>
+
+      <div class="steps-card">
+        <h2>How to try it</h2>
+        <ol>
+          <li>Scan the QR code.</li>
+          <li>Open the demo on your phone.</li>
+          <li>Press record and say a short Cebuano sentence.</li>
+          <li>Review the transcription.</li>
+          <li>Edit if needed.</li>
+        </ol>
+      </div>
+
+      <div class="samples-card">
+        <h2>Suggested phrases</h2>
+        <ul id="sampleList"></ul>
+      </div>
+
+      <p id="helperLine" class="helper-line">Say a short Cebuano sentence after scanning.</p>
+    </section>
+
+    <section class="display-panel qr-panel">
+      <div class="qr-frame">
+        <img id="qrImage" src="./assets/qr-placeholder.svg" alt="QR code for Cebuano speech-to-text demo" />
+      </div>
+
+      <div class="url-card">
+        <span class="label">Manual link</span>
+        <code id="stableUrlLarge">https://YOUR_GITHUB_USERNAME.github.io/cebuano-demo-link/</code>
+      </div>
+
+      <p class="tiny">Press <strong>F11</strong> for fullscreen in the browser. Press <strong>R</strong> to refresh this screen.</p>
+    </section>
+  </main>
+
+  <footer class="display-footer">
+    <span id="projectNameFooter">Cebuano AI Speech-to-Text Demo</span>
+    <span id="footerNote">If the backend URL changes, update destinationUrl in settings.js and push to GitHub. The QR stays the same.</span>
+  </footer>
+
+  <script src="./settings.js"></script>
+  <script src="./scripts/display.js"></script>
+</body>
+</html>

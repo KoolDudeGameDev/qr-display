@@ -1,0 +1,14 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" fill="white"/>
+  <rect x="120" y="120" width="960" height="960" rx="24" stroke="black" stroke-width="8"/>
+  <rect x="40" y="40" width="160" height="160" fill="black"/>
+  <rect x="80" y="80" width="80" height="80" fill="white"/>
+  <rect x="1000" y="40" width="160" height="160" fill="black"/>
+  <rect x="1040" y="80" width="80" height="80" fill="white"/>
+  <rect x="40" y="1000" width="160" height="160" fill="black"/>
+  <rect x="80" y="1040" width="80" height="80" fill="white"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="black">REPLACE WITH</text>
+  <text x="600" y="585" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="black">YOUR FINAL</text>
+  <text x="600" y="700" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="92" font-weight="700" fill="black">QR CODE</text>
+  <text x="600" y="980" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="black">Generate the QR once using the stable GitHub Pages URL.</text>
+</svg>
