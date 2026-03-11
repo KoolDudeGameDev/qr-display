@@ -1,7 +1,7 @@
 window.APP_CONFIG = {
   projectName: "Cebuano AI Speech-to-Text Demo",
   stableUrl: "https://kooldudegamedev.github.io/qr-display/",
-  destinationUrl: "https://contests-sheffield-lobby-crown.trycloudflare.com",
+  destinationUrl: "https://roland-watts-arising-motors.trycloudflare.com",
   autoRedirectSeconds: 5,
   qrImagePath: "./assets/qr-code.svg",
   boothTitle: "Scan to Try the Demo",
@@ -10,7 +10,7 @@ window.APP_CONFIG = {
   samplePhrases: [
     "Maayong buntag.",
     "Kumusta ka?",
-    "Ganahan ko motry ani nga sistema.",
+    "Ganahan ko mo suway ani nga sistema.",
     "Nindot unta kung makasabut ni sa Cebuano."
   ],
   footerNote: "",
