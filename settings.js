@@ -3,7 +3,7 @@ window.APP_CONFIG = {
   stableUrl: "https://kooldudegamedev.github.io/qr-display/",
   destinationUrl: "https://delivering-pieces-reserves-isolated.trycloudflare.com",
   autoRedirectSeconds: 5,
-  qrImagePath: "./assets/qr-code.svg",
+  qrImagePath: "./assets/qr-code.png",
   boothTitle: "Scan to Try the Demo",
   boothSubtitle: "Use your phone to open the Cebuano AI speech-to-text test page.",
   helperLine: "Say a short Cebuano sentence after scanning.",

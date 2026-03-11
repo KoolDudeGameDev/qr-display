@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Generator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f6f8fb;
+    }
+    .card {
+      width: min(720px, 92vw);
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.08);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    input {
+      width: 100%;
+      padding: 12px 14px;
+      font-size: 16px;
+      border: 1px solid #cfd6e4;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 14px;
+      padding: 12px 16px;
+      font-size: 16px;
+      border: 0;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    #qrcode {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+    }
+    .note {
+      margin-top: 16px;
+      color: #555;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Generate QR for Stable URL</h1>
+
+    <label for="url">Stable URL</label>
+    <input id="url" type="text" value="https://kooldudegamedev.github.io/qr-display/" />
+
+    <button onclick="generateQR()">Generate QR</button>
+
+    <div id="qrcode"></div>
+
+    <div class="note">
+      Important: enter only your GitHub Pages URL or custom domain. Do not paste a third-party QR site link.
+      After generating, right-click the QR image and save it.
+    </div>
+  </div>
+
+  <script>
+    let qr;
+
+    function generateQR() {
+      const url = document.getElementById("url").value.trim();
+      const container = document.getElementById("qrcode");
+      container.innerHTML = "";
+
+      if (!url) {
+        alert("Enter a URL first.");
+        return;
+      }
+
+      qr = new QRCode(container, {
+        text: url,
+        width: 320,
+        height: 320,
+        correctLevel: QRCode.CorrectLevel.H
+      });
+    }
+
+    generateQR();
+  </script>
+</body>
+</html>
