@@ -1,7 +1,7 @@
 window.APP_CONFIG = {
   projectName: "Cebuano AI Speech-to-Text Demo",
   stableUrl: "https://kooldudegamedev.github.io/qr-display/",
-  destinationUrl: "https://populations-heart-leisure-wage.trycloudflare.com",
+  destinationUrl: "https://template-january-trunk-royal.trycloudflare.com",
   autoRedirectSeconds: 5,
   qrImagePath: "./assets/qr-code.png",
   boothTitle: "Scan to Try the Demo",
